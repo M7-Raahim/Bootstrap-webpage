@@ -1,0 +1,44 @@
+        
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(50, 173, 204, 0.5)), url('/api/placeholder/1200/400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+        }
+        
+        .product-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .badge-corner {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        
+        .category-badge {
+            background-color: #f8f9fa;
+            color: #212529;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s;
+        }
+        
+        .category-badge:hover {
+            background-color: #e9ecef;
+        }
+        
+        footer {
+            background-color: #212529;
+            color: white;
+        }
